@@ -1,76 +1,40 @@
 import React from "react";
 
 const commentsData = [
+
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "John Doe",
+    text: "This video is absolutely amazing! The cinematography is on point, and I loved the storyline. Well done!",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Jane Smith",
+    text: "I agree with John! This is one of the best videos I’ve seen in a while. The editing is top-notch.",
     replies: [
       {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
+        name: "Michael Scott",
+        text: "Totally! The video had me hooked from the start. Can’t wait to see more content like this.",
         replies: [],
-      },
-      {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
-        replies: [
-          {
-            name: "Akshay Saini",
-            text: "Lorem ipsum dolor sit amet, consectetur adip",
-            replies: [
-              {
-                name: "Akshay Saini",
-                text: "Lorem ipsum dolor sit amet, consectetur adip",
-                replies: [
-                  {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
-                    replies: [
-                      {
-                        name: "Akshay Saini",
-                        text: "Lorem ipsum dolor sit amet, consectetur adip",
-                        replies: [],
-                      },
-                    ],
-                  },
-                  {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
-                    replies: [],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
       },
     ],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
-    replies: [],
+    name: "Alice Johnson",
+    text: "This was good, but I feel like the pacing could have been a bit better. Some scenes felt a little too rushed for me.",
+    replies: [
+      {
+        name: "Chris Evans",
+        text: "I respect your opinion, but I think the pacing was intentional to keep the tension high!",
+        replies: [],
+      },
+    ],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Robert Downey",
+    text: "Such an inspiring video! Really motivated me to pursue my own creative projects.",
     replies: [],
   },
-  {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
-    replies: [],
-  },
-  {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
-    replies: [],
-  },
+
 ];
 
 const Comment = ({ data }) => {
